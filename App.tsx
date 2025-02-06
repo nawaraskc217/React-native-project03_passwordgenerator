@@ -1,29 +1,36 @@
 import React from 'react'
 import { SafeAreaView , ScrollView, Text} from 'react-native'
-import FlatCard from './components/FlatCard'
-import ElevatedCards from './components/ElevatedCards'
-import FancyCard from './components/FancyCard'
-import ActionCard from './components/ActionCard'
-import ContactList from './components/ContactList'
+import AppDel from './components/AppDel'
+// import FlatCard from './components/project2/FlatCard'
+// import ElevatedCards from './components/project2/ElevatedCards'
+// import FancyCard from './components/project2/FancyCard'
+// import ActionCard from './components/project2/ActionCard'
+// import ContactList from './components/project2/ContactList'
+
 
 
 function App() {
   return (
     
-      <SafeAreaView >
+  
+    <SafeAreaView>
+      <AppDel/>
 
-      <ScrollView scrollEnabled={true}>
+    </SafeAreaView>
+      // <SafeAreaView >
 
-      <FlatCard />
-      <ElevatedCards/>
-      <FancyCard/>
-      <ActionCard/>
-      <ContactList/>
+      // <ScrollView scrollEnabled={true}>
 
-      </ScrollView>
+      // <FlatCard />
+      // <ElevatedCards/>
+      // <FancyCard/>
+      // <ActionCard/>
+      // <ContactList/>
+
+      // </ScrollView>
     
 
-      </SafeAreaView>
+      // </SafeAreaView>
     
   )
 }
